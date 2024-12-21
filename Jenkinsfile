@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Pull Code From GitHub') {
             steps {
-                git 'https://github.com/Alvinbsi/k8s_dec21.git'
+                git 'https://github.com/Alvinbsi/k8s_py_1microservice.git'
             }
         }
     }
